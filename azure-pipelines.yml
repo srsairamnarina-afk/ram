@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  name: MyPool
+
+steps:
+- script: echo "Pipeline running successfully"
+  displayName: Test Build
